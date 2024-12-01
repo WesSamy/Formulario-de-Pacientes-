@@ -1,0 +1,137 @@
+body{
+    background-color: #7BBCB3;
+}
+.logoforms{
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna (um abaixo do outro) */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width:auto;
+    height: 120px;
+    background-color: #1CB484;
+    border-radius: 0px 0px 40px 40px;
+    font-family: "Inria Serif", serif;
+    font-size: 45px;
+    color: white;
+}
+.iconLogo{
+    width: 60px;
+    height: 60px;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    margin-top: 15px;
+    padding-left: 90px;
+    padding-top: 60px;
+    width: 1220px;
+    height: 600px;
+    background-color: #1CB484;
+    border-radius: 30px;
+}
+label{
+    font-family: "Inria Serif", serif;
+    font-weight: bold;   
+    font-size: 18px;
+}
+
+.meuform{
+    display: block;
+    width: 1050px;
+    height: 490px;
+    padding-top: 50px;
+    background-color: #A5DBD0;
+    border-radius: 30px;
+}
+
+.row{
+    margin-left: 40px;
+}
+
+.form-control{
+    background-color: #CCCBCB ;
+    border-color: black;
+}
+
+.NomePaciente{
+    width: 485px;
+}
+
+.cpf{
+    width: 170px;
+}
+
+.ColunaSexo{
+    margin-right:120px;
+}
+
+.sexo{
+    width:155px
+}
+
+
+.CartSus{
+    width: 350px;
+}
+
+.NumCEP{
+    width: 100px;
+}
+
+.NomeCidade{
+    width: 260px;
+    
+}
+
+
+.EnderecoResid{
+    width: 450px;
+margin-right: 135px;
+}
+.NumResidencia{
+    width: 100px;
+}
+.ColunaNumeroResid{
+    margin-right: 60px;
+}
+
+.Uf{
+    width: 50px;
+}
+
+.ColunaBairro{
+   margin-right: 10px;
+
+}
+.NomeBairro{
+    width: 440px;
+}
+
+.colunaComplemento{
+  margin-right: 130px
+}
+.complemento {
+    width: 120px;
+}
+
+.NumTel{
+    width: 170px;
+}
+
+.ColunaEmail{
+    margin-right: 140px;
+}
+
+.EmailPaciente{
+    width: 645px;
+}
+
+.Botoes{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.customButton{
+    width:120px
+}

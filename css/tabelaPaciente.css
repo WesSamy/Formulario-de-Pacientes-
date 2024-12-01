@@ -1,0 +1,45 @@
+body{
+    background-color: #7BBCB3;
+}
+.logoforms{
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna (um abaixo do outro) */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    width:auto;
+    height: 120px;
+    background-color: #1CB484;
+    border-radius: 0px 0px 40px 40px;
+    font-family: "Inria Serif", serif;
+    font-size: 45px;
+    color: white;
+}
+.iconLogo{
+    width: 60px;
+    height: 60px;
+}
+.container{
+    margin-top: 15px;
+    padding-top: 20px;
+    width: 1220px;
+    height: 210px;
+    background-color: #1CB484;
+    border-radius: 30px;
+}
+
+.custom-table th,
+.custom-table td {   
+    border: 1px solid #000000; /* Borda personalizada */ 
+}
+
+.Botoes{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.customButton{
+    width:150px;
+    height: 40px;
+
+}
+
